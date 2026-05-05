@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Upload, Camera, Loader2, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Camera, Loader2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 export function AIImageUpload() {

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Car, Activity, Gauge, Navigation, Filter, Map as MapIcon, Bell, BrainCircuit } from 'lucide-react';
+import { Car, Activity, Gauge, Filter, Map as MapIcon, BrainCircuit } from 'lucide-react';
 import { useSimulation } from './hooks/useSimulation';
 import { MetricCard } from './components/MetricCard';
 import { TrafficMap } from './components/TrafficMap';
